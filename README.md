@@ -19,8 +19,8 @@
 
 9. https://hannahshiels.github.io/daily-project/project-009/index.html
 
-10.https://hannahshiels.github.io/daily-project/project-010/index.html
+10. https://hannahshiels.github.io/daily-project/project-010/index.html
 
-11.https://hannahshiels.github.io/daily-project/project-011/index.html
+11. https://hannahshiels.github.io/daily-project/project-011/index.html
 
-12.https://hannahshiels.github.io/daily-project/project-012/index.html
+12. https://hannahshiels.github.io/daily-project/project-012/index.html
