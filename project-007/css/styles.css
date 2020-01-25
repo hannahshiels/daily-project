@@ -266,6 +266,8 @@ section {
 .card-title {
     background-color: #6a5c55;
     border-bottom: 1px solid #6a5c55;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
     color: #fff;
 }
 
