@@ -1,1 +1,1 @@
-# daily-project
+# daily projects
