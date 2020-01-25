@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Pricing component with toggle </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="flex-row center">
+        <h1> Our Pricing </h1>
+    </header>
+
+
+    <div class="toggle-container flex-row center">
+        <span class="pricing-point mr-1">Annually</span>
+        <label class="switch">
+    <input class="btn" type="checkbox">
+    <span class="slider round"></span>
+</label>
+        <span class="pricing-point ml-1">Monthly</span>
+    </div>
+
+    <main class="flex-row center mb-2 mt-2 flex-row-col">
+        <div class="card flex-col center-space-between">
+            <div class="card-head flex-col center mb-1">
+                <h2 class="mb-2">Basic</h2> <span id="basic" class="price">  $199.99 <!--&dollar;199.99-->  </span></div>
+            <div class="card-body mb-1 flex-col center">
+                <ul>
+                    <li class="border-top border-bottom"> 500 GB Storage </li>
+                    <li class="border-bottom"> 2 Users Allowed </li>
+                    <li class="border-bottom"> Send up to 3 GB </li>
+                </ul>
+            </div>
+            <div class="card-foot flex-row">
+                <button class="btn"> Learn More</button>
+            </div>
+        </div>
+        <div class="card flex-col center-space-between highlighted-card">
+            <div class="card-head flex-col center mb-1">
+                <h2 class="mb-2">Professional</h2> <span id="prof" class="price"> $249.99 <!--  &dollar;249.99--> </span></div>
+            <div class="card-body flex-col center mb-1">
+                <ul>
+                    <li class="border-top border-bottom"> 1 TB Storage </li>
+                    <li class="border-bottom"> 5 Users Allowed </li>
+                    <li class="border-bottom"> Send up to 10 GB </li>
+                </ul>
+            </div>
+            <div class="card-foot flex-row">
+                <button class="btn"> Learn More</button>
+            </div>
+        </div>
+        <div class="card flex-col center-space-between">
+            <div class="card-head flex-col center mb-1">
+                <h2 class="mb-2">Master</h2> <span id="master" class="price">$399.99 <!-- &dollar;399.99--> </span></div>
+            <div class="card-body flex-col center mb-1">
+                <ul>
+                    <li class="border-top border-bottom"> 2 TB Storage </li>
+                    <li class="border-bottom"> 10 Users Allowed </li>
+                    <li class="border-bottom"> Send up to 20 GB </li>
+                </ul>
+            </div>
+            <div class="card-foot flex-row">
+                <button class="btn"> Learn More</button>
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <footer>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a target="_blank" href="https://codepen.io/devhannah">Hannah</a>.
+        </fo>
+
+        <script src="js/index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+body {
+    height: 100vh;
+    background-color: #fffafb;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    padding: 2rem;
+    height: 80%;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 1rem 0;
+}
+
+button {
+    transition: 0.7s;
+}
+
+h1 {
+    color: #c51c53;
+    font-size: 1.2rem;
+}
+
+button {
+    background-color: #fffafb;
+    padding: 1rem;
+    border-width: 2px 2px 4px;
+    border-style: solid;
+    border-color: #0d1321;
+    transition: .1s;
+    font-weight: bold;
+    border-radius: 12px;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    font-size: 1rem;
+    color: #c51c53;
+    width: 16rem;
+}
+
+button:focus {
+    outline: 0;
+}
+
+button:active {
+    transition: .2s;
+    border-width: 2px;
+}
+
+h2 {
+    color: #fffafb;
+    font-size: 2.5rem;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.bg-changer {
+    height: 100%;
+    width: 100%;
+    background-color: #595758;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #0d1321;
+    box-shadow: 0 5px 20px 0 #101111;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fffafb;
+    text-align: center;
+}
+
+footer a {
+    border-bottom: 1px dashed #fffafb;
+    letter-spacing: 0.5px;
+    padding: 0 2px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #c51c53;
+}
+
+footer a:hover {
+    color: #d45981;
+    border-bottom: 1px solid #fffafb;
+}

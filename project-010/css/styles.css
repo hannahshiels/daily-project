@@ -1,0 +1,195 @@
+/* general styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    display: grid;
+    font-family: "Tomorrow", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    display: inline-block;
+    color: #fff;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+nav a:link {
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+nav a:hover {
+    background-color: #3abeff;
+    box-shadow: 6px 6px 0 0 #26272d;
+    transition: 700ms;
+}
+
+nav a:focus {
+    border: 1px solid #3abeff;
+}
+
+button {
+    border: none;
+    background: transparent;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #3abeff;
+    text-shadow: 2px 0px #111218;
+    letter-spacing: 6px;
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.7rem;
+    margin: 1rem 0;
+}
+
+.content p {
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+i {
+    font-size: 27px;
+    color: #fff;
+}
+
+ul {
+    width: 100%;
+}
+
+
+/* utility */
+
+.flex-row {
+    display: flex;
+}
+
+.center-both {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-start {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* structure */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transition: 0.5s ease-in-out;
+    width: 72px;
+}
+
+.sidebar.active {
+    background-color: #111218;
+    min-width: 264px;
+}
+
+.navbar {
+    display: none;
+    padding: 3.5rem 1rem;
+}
+
+nav ul li {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.sidebar.active .navbar {
+    display: flex;
+}
+
+.content-container {
+    margin-left: 72px;
+    width: 100%;
+}
+
+.content-container.active {
+    margin-left: 264px;
+}
+
+.btn-container {
+    background-color: #111218;
+    padding: 2.5rem 1rem;
+    height: 200px;
+}
+
+.title {
+    background-color: #fff;
+    position: sticky;
+    border-bottom: 2px solid #000;
+    top: 0;
+    right: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 200px;
+    padding: 2.5rem 1rem;
+}
+
+.content {
+    min-height: 100vh;
+    padding: 3.5rem 1rem;
+    margin-bottom: 2rem;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #0d1321;
+    box-shadow: 0 5px 20px 0 #101111;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fffafb;
+    text-align: center;
+}
+
+footer a {
+    border-bottom: 1px dashed #fffafb;
+    letter-spacing: 0.5px;
+    padding: 0 2px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #c51c53;
+}
+
+footer a:hover {
+    color: #d45981;
+    border-bottom: 1px solid #fffafb;
+}

@@ -1,0 +1,173 @@
+/* general styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #1be7ff;
+    font-family: 'Assistant', sans-serif;
+    min-height: 100vh;
+}
+
+a {
+    color: #fcfdfc;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background: transparent;
+    color: #939fab;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.5rem;
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 30px;
+}
+
+button:hover {
+    background-color: #64d678;
+}
+
+
+/* utility */
+
+.flex-row {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-evenly {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.border-right {
+    border-right: 1px solid #64d678;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #64d678;
+}
+
+.visible {
+    display: none;
+}
+
+
+/* structure */
+
+.container {
+    height: 100px;
+    width: 450px;
+    max-width: 80%;
+    margin-bottom: 2rem;
+}
+
+.navbar {
+    background: #6eeb83;
+    border: 1px solid #64d678;
+    border-top-right-radius: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.left-side-navbar {
+    width: 70%;
+    height: 100%;
+}
+
+.left-side-navbar ul {
+    height: 100%;
+    width: 100%;
+}
+
+.left-side-navbar ul li {
+    height: 100%;
+    width: 33.33%;
+}
+
+.left-side-navbar ul li:hover {
+    background-color: #64d678;
+}
+
+.help-navbar {
+    position: relative;
+    width: 30%;
+    height: 100%;
+}
+
+.btn-container {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 30px;
+    border-left: 1px solid #64d678;
+}
+
+.hidden-menu {
+    background-color: #6eeb83;
+    position: absolute;
+    top: 99px;
+    right: 0;
+    left: 0;
+    border: 1px solid #64d678;
+    border-top: none;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-item {
+    width: 100%;
+    padding: 1rem;
+}
+
+.menu-item:hover {
+    background-color: #64d678;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #0d1321;
+    box-shadow: 0 5px 20px 0 #101111;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fffafb;
+    text-align: center;
+}
+
+footer a {
+    border-bottom: 1px dashed #fffafb;
+    letter-spacing: 0.5px;
+    padding: 0 2px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #c51c53;
+}
+
+footer a:hover {
+    color: #d45981;
+    border-bottom: 1px solid #fffafb;
+}

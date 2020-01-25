@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    padding: 2rem;
+    background-color: #b3ebe3;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+p {
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+}
+
+.topic-heading {
+    white-space: pre;
+    border-bottom: 5px solid #aa4465;
+}
+
+p {
+    color: #25283d;
+    margin-bottom: 12px;
+    font-weight: 300;
+}
+
+.author{
+    font-weight: 500;
+    color: #fbfbfc;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-post {
+    display: flex;
+    height: 70%;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 0 10px #aeafb9;
+}
+
+
+.blog-header {
+    width: 40%;
+    background-color: #25283d;
+    color: #fbfbfc;
+    padding: 2rem;
+}
+
+.blog-main {
+    background-color: #fbfbfc;
+    width: 80%;
+    padding: 2rem;
+}
+
+.blog-footer button {
+    border: 0;
+    background-color: #fbfbfc;
+}
+
+.blog-content {
+    padding: 0 2rem 2rem;
+    overflow-y: scroll;
+}
+
+.blog-large {
+    height: 90%;
+}
+
+.blog-footer {
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.blog-main-footer{
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.date-container{
+    margin-top: auto;
+    margin-right: auto;
+}
+.date-container p {
+    margin-bottom: 0;
+}
+
+i {
+    font-size: 27px;
+    transition: 0.2s;
+}
+
+
+.heart-outline {
+    color: #25283d;
+}
+.heart-full{
+    color: #aa4465;
+}
+footer {
+    background-color: #0d1321;
+    box-shadow: 0 5px 20px 0 #101111;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fffafb;
+    text-align: center;
+}
+
+footer a {
+    border-bottom: 1px dashed #fffafb;
+    letter-spacing: 0.5px;
+    padding: 0 2px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #c51c53;
+}
+
+footer a:hover {
+    color: #d45981;
+    border-bottom: 1px solid #fffafb;
+}
+
+@media(max-width: 800px){
+    body {
+        height: auto;
+    }
+
+    .center {
+        display: block;
+    }
+
+    .blog-large {
+        height: auto;
+    }
+
+    
+    .blog-post{
+        flex-direction: column;
+        margin-bottom: 3rem ;
+
+    }
+
+    .blog-header,
+    .blog-main{
+        width: 100%;
+    }
+
+    .blog-footer{
+        height: 50px;
+    }
+}
