@@ -1,0 +1,178 @@
+/* general styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffeec;
+    line-height: 1.5;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    color: #fff;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    border-radius: 16px;
+    padding: 5px;
+    font-size: 1.2rem;
+    background-color: #e4508f;
+    width: 12rem;
+    height: 3rem;
+    border-width: 0px 2px 4px;
+    border-style: solid;
+    border-color: #d04982;
+    transition: .1s;
+}
+
+button:hover {
+    background-color: #e65f99;
+    border-color: #e4508f;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+button:active {
+    transition: .2s;
+    border-width: 2px;
+}
+
+h2 {
+    color: #e4508f;
+    font-size: 1.5rem;
+}
+
+h3 {
+    color: #facf5a;
+    font-size: 1.2rem;
+}
+
+h2,
+h3 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+/* utility */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* structure */
+
+.container {
+    background-color: #fff;
+    border: 3px dashed #556fb5;
+    padding: 2rem;
+    width: 100%;
+    max-width: 600px;
+}
+
+.title {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.container table {
+    width: 100%;
+    color: #e4508f;
+    font-weight: 300;
+}
+
+.row-data td {
+    width: 25%;
+    text-align: center;
+    padding: 1rem;
+}
+
+tfoot {
+    text-align: center;
+}
+
+tfoot tr * {
+    padding: 1rem;
+}
+
+.row-data {
+    border-bottom: 1px dashed #556fb5;
+}
+
+.row-heading th {
+    color: #e65f99;
+    width: 25%;
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.item-desc {
+    width: 50%;
+    text-align: left;
+}
+
+.item-total,
+.total {
+    font-weight: 400;
+}
+
+.btn-container {
+    padding: 1rem 0 0;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #0d1321;
+    box-shadow: 0 5px 20px 0 #101111;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fffafb;
+    text-align: center;
+}
+
+footer a {
+    border-bottom: 1px dashed #fffafb;
+    letter-spacing: 0.5px;
+    padding: 0 2px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #c51c53;
+}
+
+footer a:hover {
+    color: #d45981;
+    border-bottom: 1px solid #fffafb;
+}
