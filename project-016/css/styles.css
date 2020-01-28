@@ -1,0 +1,160 @@
+/* general styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(-225deg, #e5d8e4 0%, #fa56ec 100%);
+    color: #e5d8e4;
+    min-height: 100vh;
+    line-height: 1.2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #fa56ec;
+    border: none;
+    border-radius: 3px;
+    color: #e5d8e4;
+    font-family: 'Concert One', cursive;
+    padding: 1rem;
+    transition: ease-in-out 200ms;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+h3 {
+    color: #e5d8e4;
+    font-family: 'Concert One', cursive;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+
+/* utility */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.center-end {
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.tag-list {
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.tag {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.tag-one {
+    background-color: #fa56ec;
+    color: #fff;
+}
+
+.tag-two {
+    background-color: #fff;
+    color: #0d141a;
+}
+
+.tag-three {
+    background-color: #0d141a;
+    color: #fff;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+
+/* structure */
+
+.container {
+    max-width: 450px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background: #131e28;
+    border: 1px solid #131e28;
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 2.5rem #0d141a;
+    padding: 1rem;
+}
+
+.card,
+.card-head,
+.card-body,
+.card-foot {
+    width: 100%;
+    padding: 1rem 0.5rem;
+}
+
+.card-head {
+    border-bottom: 1px solid #e5d8e4;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #0d1321;
+    box-shadow: 0 5px 20px 0 #101111;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fffafb;
+    text-align: center;
+}
+
+footer a {
+    border-bottom: 1px dashed #fffafb;
+    letter-spacing: 0.5px;
+    padding: 0 2px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #c51c53;
+}
+
+footer a:hover {
+    color: #d45981;
+    border-bottom: 1px solid #fffafb;
+}
