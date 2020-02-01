@@ -1,6 +1,3 @@
-const firstName = document.querySelector('#firstName');
-const lastName = document.querySelector('#lastName');
-const password = document.querySelector('#password');
 const inputs = document.querySelectorAll('input')
 const btn = document.querySelector('#btn');
 const label = document.createElement('label');
@@ -21,7 +18,6 @@ function validateForm(e) {
 
 function validateEmail(email) {
     const validate = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value);
-    console.log(validate);
     if (!validate) {
         failMsg(email);
     } else {
@@ -31,6 +27,10 @@ function validateEmail(email) {
 
 function failMsg(input) {
     input.style.borderColor = 'hsl(0, 100%, 74%)';
+    input.style.backgroundImage = 'url(../images/icon-error.svg)';
+    input.style.backgroundPosition = '98% 50%';
+    input.style.backgroundRepeat = 'no-repeat';
+    label.textContent = 'Enter your ' + input;
 }
 
 function successMsg(input) {
