@@ -34,6 +34,9 @@ function failMsg(input) {
 }
 
 function successMsg(input) {
+    if (input.style.backgroundImage = 'url(./images/icon-error.svg)') {
+        input.style.backgroundImage = 'none'
+    }
     input.style.borderColor = 'hsl(154, 59%, 51%)';
 
 }
