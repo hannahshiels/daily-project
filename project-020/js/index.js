@@ -27,7 +27,7 @@ function validateEmail(email) {
 
 function failMsg(input) {
     input.style.borderColor = 'hsl(0, 100%, 74%)';
-    input.style.backgroundImage = 'url(../images/icon-error.svg)';
+    input.style.backgroundImage = 'url(./images/icon-error.svg)';
     input.style.backgroundPosition = '98% 50%';
     input.style.backgroundRepeat = 'no-repeat';
     label.textContent = 'Enter your ' + input;
