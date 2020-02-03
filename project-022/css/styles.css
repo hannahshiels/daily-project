@@ -1,6 +1,6 @@
 :root {
     --dark-blue: #5386e4;
-    --light-blue: #00a7e1;
+    --light-blue: #61e8e1;
 }
 
 
@@ -16,7 +16,7 @@
 }
 
 body {
-    background: linear-gradient(90deg, #fff, #edf7ff);
+    background: linear-gradient(90deg, #fff, #e2faf9);
     color: #fff;
     font-family: 'Playfair Display', serif;
     padding: 3rem;
@@ -44,7 +44,6 @@ button {
 button:hover {
     cursor: pointer;
     box-shadow: 0 0 10px var(--dark-blue);
-    transform: translateY(-2px);
 }
 
 h1 {
