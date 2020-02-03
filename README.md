@@ -25,7 +25,7 @@
 
 12.Front end mentor pricing components https://hannahshiels.github.io/daily-project/project-012/index.html
 
-13. Rock, paper, scissors game https://hannahshiels.github.io/daily-project/project-013/index.html
+13.Rock, paper, scissors game https://hannahshiels.github.io/daily-project/project-013/index.html
 
 14.Tribute page https://hannahshiels.github.io/daily-project/project-014/index.html
 
