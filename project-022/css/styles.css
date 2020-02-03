@@ -48,7 +48,7 @@ button:hover {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     font-weight: 800;
 }
 
@@ -139,4 +139,27 @@ footer a {
 footer a:hover {
     color: #d45981;
     border-bottom: 1px solid #fffafb;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+    .container {
+        min-height: auto;
+        padding: 2rem;
+    }
+    .container>* {
+        padding: 1.5rem;
+    }
+    button {
+        font-size: 1rem;
+        width: 100%;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    div p {
+        font-size: 1.5rem;
+    }
 }
