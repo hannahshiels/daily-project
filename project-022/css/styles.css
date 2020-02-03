@@ -1,0 +1,135 @@
+:root {
+    --dark-blue: #5386e4;
+    --light-blue: #00a7e1;
+}
+
+
+/* general styling */
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, #fff, #edf7ff);
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    padding: 3rem;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 5px var(--dark-blue);
+    color: #446ebb;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 1rem 3rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+div p {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+
+/* utility */
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.start-center {
+    align-content: space-between;
+    justify-content: flex-start;
+}
+
+
+/* structure */
+
+.container {
+    background: linear-gradient(45deg, var(--dark-blue), var(--light-blue));
+    border-radius: 15px;
+    min-height: 600px;
+    width: 100%;
+    max-width: 700px;
+    padding: 4rem;
+    text-align: center;
+}
+
+.container header {
+    margin-bottom: 2rem;
+}
+
+.container>* {
+    padding: 2rem;
+    width: 100%;
+}
+
+.text-container {
+    margin-top: auto;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #0d1321;
+    box-shadow: 0 5px 20px 0 #101111;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fffafb;
+    text-align: center;
+}
+
+footer a {
+    border-bottom: 1px dashed #fffafb;
+    letter-spacing: 0.5px;
+    padding: 0 2px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #c51c53;
+}
+
+footer a:hover {
+    color: #d45981;
+    border-bottom: 1px solid #fffafb;
+}
