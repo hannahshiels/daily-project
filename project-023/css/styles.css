@@ -48,6 +48,12 @@ button {
     width: 100%;
     left: 0;
     top: 174px;
+    transition: ease-in-out 0.3s;
+}
+
+button:hover {
+    background-color: #f04c6e;
+    cursor: pointer;
 }
 
 
