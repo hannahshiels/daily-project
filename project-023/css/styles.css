@@ -29,11 +29,15 @@ h3 {
 }
 
 input {
-    border: 1px solid #2f425a;
-    color: #2f425a;
+    border: 2px solid #2f425a;
+    color: #011936;
     padding: 0.5rem 1rem;
     height: 3rem;
     font-size: 1.1rem;
+}
+
+input:focus {
+    border: 2px solid #011936;
 }
 
 button {
