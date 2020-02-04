@@ -1,0 +1,153 @@
+/* general styling */
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e8e8e8;
+    font-family: 'Titillium Web', sans-serif;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: #2f425a;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+h3 {
+    color: #ed254e;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+input {
+    border: 2px solid #2f425a;
+    color: #011936;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.1rem;
+    height: 3rem;
+    padding: 0.5rem 1rem;
+}
+
+input:focus {
+    border: 2px solid #011936;
+    font-weight: 600;
+}
+
+button {
+    background-color: #ed254e;
+    border: 2px solid #011936;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 800;
+    height: 4.5rem;
+    letter-spacing: 2px;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    left: 0;
+    top: 190px;
+    transition: ease-in-out 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #f04c6e;
+    cursor: pointer;
+}
+
+
+/* utility */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+
+/* structure */
+
+.container {
+    background-color: #fff;
+    border: 2px solid #011936;
+    margin-bottom: 4rem;
+    max-width: 600px;
+    padding: 2rem;
+}
+
+.container div {
+    padding: 2rem;
+    text-align: center;
+}
+
+form {
+    padding: 1rem;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #0d1321;
+    box-shadow: 0 5px 20px 0 #101111;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    color: #fffafb;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer a {
+    border-bottom: 1px dashed #fffafb;
+    color: #c51c53;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 0 2px;
+}
+
+footer a:hover {
+    color: #d45981;
+    border-bottom: 1px solid #fffafb;
+}
