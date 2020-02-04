@@ -88,6 +88,10 @@ https://hannahshiels.github.io/daily-project/project-021/index.html
 
 https://hannahshiels.github.io/daily-project/project-022/index.html
 
+23. Newsletter design 
+
+https://hannahshiels.github.io/daily-project/project-023/index.html
+
 
 
 
