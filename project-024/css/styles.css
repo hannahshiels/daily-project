@@ -101,7 +101,7 @@ header {
 
 .question-container {
     background-color: #fafbfc;
-    border: 1px solid #293241;
+    border: 2px solid #293241;
     margin-bottom: 2rem;
     min-width: 300px;
 }
@@ -112,7 +112,7 @@ header {
 }
 
 .answer {
-    border-top: 1px solid #293241;
+    border-top: 2px solid #293241;
 }
 
 
