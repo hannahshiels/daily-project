@@ -148,3 +148,12 @@ footer a:hover {
     border-bottom: 1px solid #fffafb;
     color: #d45981;
 }
+
+@media screen and (max-width: 400px) {
+    .container {
+        padding: 2rem 0;
+    }
+    .question-container {
+        min-width: 100%;
+    }
+}
