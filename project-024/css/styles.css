@@ -24,6 +24,11 @@ a {
 button {
     background-color: #fafbfc;
     border: none;
+    margin-left: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 h1 {
