@@ -96,6 +96,13 @@ https://hannahshiels.github.io/daily-project/project-023/index.html
 
 https://hannahshiels.github.io/daily-project/project-024/index.html
 
+25. Phone design 
+
+https://hannahshiels.github.io/daily-project/project-025/index.html
+
+
+
+
 
 
 
