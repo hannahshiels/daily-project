@@ -152,7 +152,7 @@ i {
     letter-spacing: 0.1px;
     margin: 0.5rem;
     min-height: 100px;
-    flex-basis: 42%;
+    flex-basis: 44%;
 }
 
 .img-container {
@@ -180,6 +180,7 @@ i {
 }
 
 .middle {
+    border-top: 2px solid #454851;
     border-bottom: 2px solid #454851;
 }
 
