@@ -100,6 +100,13 @@ https://hannahshiels.github.io/daily-project/project-024/index.html
 
 https://hannahshiels.github.io/daily-project/project-025/index.html
 
+26. BMI calculator
+
+https://hannahshiels.github.io/daily-project/project-026/index.html
+
+
+
+
 
 
 
