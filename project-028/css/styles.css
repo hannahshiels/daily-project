@@ -10,19 +10,47 @@
 }
 
 body {
+    color: #0a0809;
+    font-family: 'Martel Sans', sans-serif;
     min-height: 100vh;
 }
 
 section {
     min-height: 100vh;
     padding: 2rem;
+    line-height: 1.5;
 }
 
 a {
+    color: #e5fcff;
     text-decoration: none;
 }
 
+a:hover {
+    border-bottom: 1px dashed #0a0809;
+}
+
+button {
+    font-family: 'Martel Sans', sans-serif;
+}
+
+h1 {
+    color: #0a0809;
+    font-size: 3rem;
+    text-align: center;
+}
+
+p {
+    color: #0a0809;
+}
+
+#intro p {
+    color: #e5fcff;
+    font-size: 1.2rem;
+}
+
 h2 {
+    color: #e5fcff;
     font-size: 2.5rem;
     text-align: center;
 }
@@ -60,11 +88,11 @@ img {
 }
 
 .bkgd-color {
-    background-color: grey;
+    background-color: #7bdff2;
 }
 
 .alt-bkgd-color {
-    background-color: aqua;
+    background-color: #ffcad4;
 }
 
 .space-between {
@@ -126,10 +154,10 @@ main {
     width: 50%;
     padding: 1rem 2rem;
     min-height: 300px;
+    text-align: center;
 }
 
 .right-side>div {
-    text-align: center;
     width: 100%;
 }
 
@@ -158,6 +186,14 @@ main {
 .project-desc>div {
     width: 50%;
     margin: 0.1rem;
+}
+
+#contact a {
+    color: #0a0809;
+}
+
+#contact a:hover {
+    border-color: #e5fcff;
 }
 
 
