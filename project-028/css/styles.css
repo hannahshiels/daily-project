@@ -130,7 +130,17 @@ img {
 }
 
 .btn {
+    background-color: #b2f7ef;
+    border: 1px solid #e5fcff;
+    color: #0a0809;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
     width: 100%;
+}
+
+.btn:hover {
+    background-color: #a2e1da;
+    cursor: pointer;
 }
 
 
@@ -138,6 +148,10 @@ img {
 
 header {
     padding: 2rem;
+}
+
+header a {
+    font-size: 1.2rem;
 }
 
 main {
@@ -190,6 +204,10 @@ main {
 
 #contact a {
     color: #0a0809;
+}
+
+#projects a {
+    border: none;
 }
 
 #contact a:hover {
