@@ -23,6 +23,7 @@ section {
 
 a {
     color: #e5fcff;
+    font-size: 1.2rem;
     text-decoration: none;
 }
 
@@ -148,10 +149,6 @@ img {
 
 header {
     padding: 2rem;
-}
-
-header a {
-    font-size: 1.2rem;
 }
 
 main {
