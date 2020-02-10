@@ -126,6 +126,11 @@ i {
     background: #fff;
 }
 
+.btn:hover {
+    background: #1B8519;
+    cursor: pointer;
+}
+
 
 /* structure */
 
@@ -221,5 +226,4 @@ i {
     bottom: 0;
     left: 0;
     width: 100%;
-    border-top: 1px solid #262b32;
 }
