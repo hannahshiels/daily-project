@@ -1,0 +1,229 @@
+/* general styling */
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://geekprank.com/images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #262b32;
+    font-family: 'Ubuntu Mono', monospace;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    height: 3rem;
+    width: 10rem;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn {
+    background-color: #199A1A;
+    box-shadow: inset 0px 0px 20px #1B8519;
+    color: #fff;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 10px grey;
+}
+
+.btn i {
+    color: yellow;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+i {
+    color: #262b32;
+    font-size: 27px;
+}
+
+.left-side ul li:hover {
+    background-color: #c1d2f5;
+}
+
+.right-side ul li:hover {
+    background-color: #fff;
+}
+
+
+/* utility */
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.center-x {
+    align-items: center;
+}
+
+.mr-1 {
+    margin-right: 1rem;
+}
+
+.mr-2 {
+    margin-right: 2rem;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #262b32;
+}
+
+.visible {
+    display: none;
+}
+
+.log-off {
+    background: #FFD618;
+    box-shadow: inset 0 0 20px #DEA516;
+}
+
+.log-off:hover {
+    background: #DEA516;
+}
+
+.shut-down {
+    background: #ED7625;
+    box-shadow: inset 0 0 10px #CC211E;
+}
+
+.shut-down:hover {
+    background: #CC211E;
+}
+
+.desktop-icon-container:hover {
+    background: #fff;
+}
+
+.btn:hover {
+    background: #1B8519;
+    cursor: pointer;
+}
+
+
+/* structure */
+
+.container {
+    padding: 2rem;
+}
+
+.desktop-icon-container {
+    width: 75px;
+    height: 75px;
+    padding: 1rem;
+    margin-right: 2rem;
+}
+
+.desktop-icon-container i {
+    margin-bottom: 1rem;
+}
+
+.left-side,
+.right-side {
+    border-top: solid 1px #262b32;
+    border-bottom: solid 1px #262b32;
+    width: 50%;
+    padding: 0.5rem 0;
+}
+
+.username-container {
+    padding: 2rem;
+}
+
+.power-settings-container {
+    padding: 1rem 2rem;
+}
+
+.power-setting span i {
+    margin: 0;
+}
+
+.power-setting span {
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    height: 50px;
+    width: 50px;
+}
+
+.username-container,
+.power-settings-container {
+    background: linear-gradient(180deg, #194bb4 20%, #4678e1);
+    color: #fff;
+}
+
+.username-container i,
+.power-settings-container i {
+    color: #fff;
+}
+
+.left-side {
+    border-right: 1px solid #262b32;
+}
+
+.right-side {
+    background-color: #c1d2f5;
+}
+
+.search-bar ul {
+    padding: 0.5rem 0;
+}
+
+.search-bar ul li {
+    padding: 1rem 2rem;
+    margin: 0rem 0;
+}
+
+.search-bar i {
+    margin-right: 0.5rem;
+}
+
+.search-bar {
+    background-color: #fff;
+    position: fixed;
+    z-index: 10;
+    bottom: 3rem;
+    left: 0;
+    min-width: 500px;
+    border: 1px solid #262b32;
+}
+
+.start-bar {
+    background-color: #1E5BDB;
+    box-shadow: inset 0 0 10px #194bb4;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
