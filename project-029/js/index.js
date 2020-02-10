@@ -1,7 +1,7 @@
 const btn = document.querySelector('.btn');
 const searchBar = document.querySelector('.search-bar');
 document.addEventListener('keypress', function(e) {
-    if (e.keyCode == 87) {
+    if (e.keyCode == 119) {
         showNav();
     } else {
         console.log(e.keyCode)
