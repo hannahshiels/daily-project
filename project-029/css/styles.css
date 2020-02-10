@@ -10,7 +10,12 @@
 }
 
 body {
-    max-height: 100vh;
+    background-image: url('https://geekprank.com/images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #262b32;
+    height: 100vh;
 }
 
 a {
@@ -18,6 +23,7 @@ a {
 }
 
 i {
+    color: #262b32;
     font-size: 27px;
 }
 
@@ -55,6 +61,11 @@ i {
     margin-left: auto;
 }
 
+.search-bar ul li.p-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .border-bottom {
     border-bottom: 1px solid grey;
 }
@@ -85,7 +96,7 @@ i {
     border-top: solid 1px black;
     border-bottom: solid 1px black;
     width: 50%;
-    padding: 0 2rem;
+    padding: 0.5rem 0;
 }
 
 .username-container,
@@ -97,9 +108,12 @@ i {
     border-right: 1px solid black;
 }
 
+.search-bar ul {
+    padding: 0.5rem 0;
+}
+
 .search-bar ul li {
-    padding: 0.5rem;
-    padding-left: 0;
+    padding: 0.5rem 2rem;
     margin-bottom: 1rem;
 }
 
@@ -108,58 +122,27 @@ i {
 }
 
 .search-bar {
+    background-color: #fff;
     position: fixed;
     z-index: 10;
-    bottom: 6rem;
+    bottom: 3rem;
     left: 0;
     min-width: 500px;
     border: 1px solid grey;
 }
 
 .start-bar {
+    background-color: #1E5BDB;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 1rem 2rem;
     border-top: 1px solid grey;
 }
 
 button {
-    height: 4rem;
-    width: 8rem;
-}
-
-
-/* footer */
-
-footer {
-    background-color: #0d1321;
-    box-shadow: 0 5px 20px 0 #101111;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-    padding: 1rem 0;
-    width: 100%;
-}
-
-footer p {
-    font-size: 14px;
-    color: #fffafb;
-    text-align: center;
-}
-
-footer a {
-    border-bottom: 1px dashed #fffafb;
-    letter-spacing: 0.5px;
-    padding: 0 2px;
+    height: 3rem;
+    width: 10rem;
+    text-transform: uppercase;
     font-weight: bold;
-    font-size: 14px;
-    color: #c51c53;
-}
-
-footer a:hover {
-    color: #d45981;
-    border-bottom: 1px solid #fffafb;
 }
