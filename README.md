@@ -120,7 +120,7 @@ https://hannahshiels.github.io/daily-project/project-029/index.html
 
 https://hannahshiels.github.io/daily-project/project-030/index.html
 
-31. A simple photgraph
+31. A simple photograph
 
 https://hannahshiels.github.io/daily-project/project-031/index.html
 
