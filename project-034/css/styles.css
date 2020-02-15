@@ -1,0 +1,173 @@
+/* general styling */
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fdfdfd;
+    font-family: 'Tomorrow', sans-serif;
+    min-height: 100vh;
+}
+
+a {
+    color: #fdfdfd;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
+button {
+    border: 1px solid #333232;
+}
+
+i {
+    color: #333232;
+    font-size: 27px;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    padding: 1rem;
+}
+
+h2 {
+    color: #333232;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+section p {
+    color: #333232;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+
+/* utility */
+
+.btn {
+    background-color: #fdfdfd;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.link {
+    padding: 0.5rem;
+}
+
+.link:hover {
+    border-bottom: 1px dashed #333232;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mb-auto {
+    margin-bottom: auto;
+}
+
+
+/* structure */
+
+body.active {
+    overflow: hidden;
+    max-height: 100vh;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+}
+
+.active .menu-container {
+    background-color: #f7b2ad;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    padding: 2rem;
+}
+
+.menu-items {
+    display: none;
+}
+
+.active .menu-items {
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+
+section {
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-bottom: 1px dashed #f7b2ad;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #0d1321;
+    box-shadow: 0 5px 20px 0 #101111;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fffafb;
+    text-align: center;
+}
+
+footer a {
+    border-bottom: 1px dashed #fffafb;
+    letter-spacing: 0.5px;
+    padding: 0 2px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #c51c53;
+}
+
+footer a:hover {
+    color: #d45981;
+    border-bottom: 1px solid #fffafb;
+}
