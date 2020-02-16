@@ -136,6 +136,20 @@ https://hannahshiels.github.io/daily-project/project-033/index.html
 
 https://hannahshiels.github.io/daily-project/project-034/index.html
 
+35. A news site
+
+https://hannahshiels.github.io/daily-project/project-035/index.html
+
+
+
+
+
+
+
+
+
+
+
 
 
 
