@@ -12,12 +12,19 @@
 body {
     background-color: #fefffe;
     color: #161514;
-    padding: 1rem;
+    font-family: 'Titillium Web', sans-serif;
     min-height: 100vh;
+    padding: 1rem;
 }
 
 a {
     text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
 }
 
 nav ul li {
@@ -25,11 +32,17 @@ nav ul li {
 }
 
 .logo {
+    color: #fefffe;
+    font-family: 'Lacquer', sans-serif;
     font-size: 2.5rem;
 }
 
 .heading-link {
-    color: #fff;
+    color: #fefffe;
+}
+
+.nav-link {
+    color: #fefffe;
 }
 
 
@@ -86,6 +99,7 @@ nav ul li {
 
 .showcase-md {
     height: 200px;
+    border-left: none;
 }
 
 .showcase-lg {
@@ -130,7 +144,8 @@ nav ul li {
 .trending-item {
     border: black 1px solid;
     min-height: 300px;
-    min-width: 400px;
+    /*  min-width: 400px;*/
+    flex-basis: 45%;
     margin: 0.5rem;
     margin-bottom: 1rem;
 }
@@ -179,7 +194,7 @@ header {
 }
 
 section {
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 .trending-inner-container {
@@ -247,6 +262,12 @@ footer a:hover {
     .news-item {
         flex-basis: 45%;
         margin: 0.5rem 0;
+    }
+    .trending-item {
+        margin: 0;
+        margin-bottom: 0.5rem;
+        min-width: 100%;
+        flex-basis: 100%;
     }
 }
 
