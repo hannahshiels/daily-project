@@ -25,10 +25,25 @@ h1,
 h2,
 h3 {
     font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+h1 {
+    font-size: 1.7rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 1.5rem;
 }
 
 nav ul li {
-    margin-left: 0.5rem;
+    margin-left: 1rem;
 }
 
 .logo {
@@ -43,6 +58,18 @@ nav ul li {
 
 .nav-link {
     color: #fefffe;
+}
+
+.nav-link:hover {
+    color: #ff4130;
+}
+
+.trend-heading {
+    color: #ff4130;
+}
+
+.trend-heading:hover {
+    color: #161514;
 }
 
 
@@ -94,7 +121,11 @@ nav ul li {
 
 .showcase-item {
     border: black 1px solid;
-    background-color: grey;
+    background-color: #d4d4d4;
+}
+
+.no-bb {
+    border-bottom: none;
 }
 
 .showcase-md {
@@ -111,7 +142,7 @@ nav ul li {
 }
 
 .news-img-container {
-    background-color: white;
+    background-color: #d4d4d4;
     height: 200px;
     width: 100%;
 }
@@ -142,18 +173,11 @@ nav ul li {
 }
 
 .trending-item {
-    border: black 1px solid;
     min-height: 300px;
-    /*  min-width: 400px;*/
+    min-width: 400px;
     flex-basis: 45%;
     margin: 0.5rem;
     margin-bottom: 1rem;
-}
-
-.article-list {
-    list-style-type: disc;
-    list-style-position: inside;
-    list-style: none;
 }
 
 .article-list li::before {
@@ -162,6 +186,7 @@ nav ul li {
     font-weight: bold;
     display: inline-block;
     width: 1em;
+    margin-left: 1rem;
 }
 
 .article-list li {
@@ -170,12 +195,36 @@ nav ul li {
     border-bottom: 1px solid #d4d4d4;
 }
 
+.article-list li a {
+    color: #555454;
+}
+
+.article-list li a:hover {
+    color: #161514;
+}
+
 .mt-auto {
     margin-top: auto;
 }
 
 .showcase-content {
     padding: 1rem;
+}
+
+.trending-latest-desc {
+    background-color: #ffa8a0;
+    padding: 1rem 1rem;
+    color: #ff4130;
+}
+
+.trending-tag {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.trending-latest-desc p {
+    padding: 0.5rem 0;
+    font-weight: 700;
 }
 
 
@@ -258,6 +307,9 @@ footer a:hover {
     }
     .showcase-item {
         height: 300px;
+    }
+    .showcase-lg {
+        border-bottom: none;
     }
     .news-item {
         flex-basis: 45%;
