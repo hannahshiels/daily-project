@@ -10,6 +10,8 @@
 }
 
 body {
+    background-color: #fefffe;
+    color: #161514;
     padding: 1rem;
     min-height: 100vh;
 }
@@ -24,6 +26,10 @@ nav ul li {
 
 .logo {
     font-size: 2.5rem;
+}
+
+.heading-link {
+    color: #fff;
 }
 
 
@@ -57,6 +63,14 @@ nav ul li {
     margin-right: auto;
 }
 
+.tag {
+    text-transform: uppercase;
+}
+
+.mr-1 {
+    margin-right: 1rem;
+}
+
 .showcase-main {
     flex-basis: 65%;
 }
@@ -67,6 +81,7 @@ nav ul li {
 
 .showcase-item {
     border: black 1px solid;
+    background-color: grey;
 }
 
 .showcase-md {
@@ -77,6 +92,10 @@ nav ul li {
     height: 400px;
 }
 
+.showcase-content {
+    background-color: #fff;
+}
+
 .news-img-container {
     background-color: white;
     height: 200px;
@@ -84,13 +103,18 @@ nav ul li {
 }
 
 .title {
-    background-color: grey;
-    padding: 2rem 0;
+    background-color: #ff1702;
+    padding: 2rem 1rem;
 }
 
 .news-item {
     margin: 0.5rem;
     flex-basis: 30%;
+    border: black 1px solid;
+}
+
+.showcase-content>div {
+    padding: 0.5rem 0;
 }
 
 .news-item>div,
@@ -104,6 +128,7 @@ nav ul li {
 }
 
 .trending-item {
+    border: black 1px solid;
     min-height: 300px;
     min-width: 400px;
     margin: 0.5rem;
@@ -112,12 +137,22 @@ nav ul li {
 
 .article-list {
     list-style-type: disc;
+    list-style-position: inside;
+    list-style: none;
+}
+
+.article-list li::before {
+    content: "\2022";
+    color: #ff4130;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
 }
 
 .article-list li {
     padding: 0.5rem 0;
     margin: 1rem 0;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #d4d4d4;
 }
 
 .mt-auto {
@@ -132,7 +167,6 @@ nav ul li {
 /* structure */
 
 main {
-    background-color: black;
     margin: 0 auto;
     width: 100%;
     max-width: 1200px;
@@ -140,11 +174,11 @@ main {
 }
 
 header {
+    background-color: #161514;
     padding: 2rem;
 }
 
 section {
-    background-color: #d45981;
     padding: 2rem;
 }
 
