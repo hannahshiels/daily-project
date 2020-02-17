@@ -210,7 +210,7 @@ section {
 /* NEWS */
 
 .latest-news {
-    padding: 4rem 2rem 2rem;
+    padding: 4rem 0rem 2rem;
     justify-content: space-between;
 }
 
