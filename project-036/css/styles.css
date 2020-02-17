@@ -1,0 +1,83 @@
+/* general styling */
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f7ff;
+    color: #303036;
+    font-family: 'Nanum Gothic', sans-serif;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+button {
+    background-color: #f7f7ff;
+    border: none;
+    border-radius: 10px;
+    color: #303036;
+    font-family: 'Nanum Gothic', sans-serif;
+    height: 3rem;
+    width: 100%;
+    box-shadow: 0 0 5px #a0a0a3;
+}
+
+
+/* utility */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.visible {
+    display: none;
+}
+
+
+/* structure */
+
+.container {
+    background-color: #91a6ff;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 350px;
+}
+
+.secret-note-container {
+    padding: 1rem;
+}
+
+.text-container {
+    padding: 2.5rem;
+}
+
+.btn-container {
+    padding: 1rem;
+}
