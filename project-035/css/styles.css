@@ -165,6 +165,11 @@ section {
 
 /* SHOWCASE */
 
+.showcase-items {
+    padding: 2rem 0;
+    width: 100%;
+}
+
 .showcase-main {
     flex-basis: 65%;
 }
@@ -205,7 +210,7 @@ section {
 /* NEWS */
 
 .latest-news {
-    padding: 4rem 0;
+    padding: 4rem 2rem 2rem;
     justify-content: space-between;
 }
 
@@ -371,6 +376,11 @@ footer a:hover {
     }
     .trending-topic {
         padding: 2rem 1rem;
+    }
+    .showcase-stack a:last-child .showcase-item,
+    .trending-item:last-child,
+    .news-item:last-child {
+        margin-bottom: 0rem;
     }
 }
 
