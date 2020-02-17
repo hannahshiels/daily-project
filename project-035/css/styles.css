@@ -356,9 +356,8 @@ footer a:hover {
     }
     .showcase-item {
         height: 300px;
-    }
-    .showcase-lg {
-        border-bottom: none;
+        margin-bottom: 1rem;
+        border: 1px solid #161514;
     }
     .news-item {
         flex-basis: 45%;
