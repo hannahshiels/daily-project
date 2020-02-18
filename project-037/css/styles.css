@@ -231,9 +231,9 @@ main {
 }
 
 .img {
-    height: 32px;
-    width: 32px;
-    background-color: grey;
+    height: 50px;
+    width: 50px;
+    background-color: #d9d9d9;
 }
 
 
