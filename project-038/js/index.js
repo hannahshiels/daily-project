@@ -7,6 +7,7 @@ function scrambleWord() {
     const input = document.querySelector('#userInput').value;
     let wordArr = input.split('');
     let newArr = [];
+    let newStr = '';
     let randomNum;
     let checkArr = input.split(' ');
     if (checkArr.length === 1) {
@@ -18,7 +19,12 @@ function scrambleWord() {
                 newArr.push(element);
             }
         });
-        h2.textContent = newArr.join('');
+        newStr = newArr.join('');
+        if (newStr === input) {
+            scrambleWord();
+        } else {
+            h2.textContent = newStr;
+        }
     } else if (checkArr > 1) {
         checkArr.pop();
     }
