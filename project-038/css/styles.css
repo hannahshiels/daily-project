@@ -1,0 +1,164 @@
+/* general styling */
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fdffff;
+    color: #2f2f2f;
+    font-family: 'Bitter', serif;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    letter-spacing: 5px;
+}
+
+h1,
+h2 {
+    color: #fdffff;
+}
+
+input {
+    border-radius: 16px;
+    color: #2f2f2f;
+    font-family: 'Bitter', serif;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    height: 3rem;
+    border: 2px solid #a10e2a;
+}
+
+input[type='button'] {
+    background-color: #ffc857;
+    letter-spacing: .8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 1rem;
+    border-color: #ffbb35;
+    border-width: 0px 2px 4px;
+    border-style: solid;
+    transition: ease-in-out 0.1s;
+}
+
+input[type='button']:hover {
+    cursor: pointer;
+    background-color: #ffd275;
+    border-color: #ffc857;
+}
+
+input[type='button']:focus {
+    outline: 0;
+    box-shadow: 0px 0px 5px #b82441;
+}
+
+input[type='button']:active {
+    border-width: 2px;
+}
+
+
+/* utility */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.padding-md {
+    padding: 2rem;
+}
+
+.padding-sm {
+    padding: 1rem;
+}
+
+.padding-el-sm {
+    padding: 1rem 0;
+}
+
+.padding-el-md {
+    padding: 2rem 0;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.visible {
+    visibility: hidden;
+}
+
+
+/* structure */
+
+.container {
+    width: 100%;
+}
+
+.word-scramble-container {
+    background-color: #b10f2e;
+    width: 300px;
+    border-color: #ffbb35;
+    border-width: 0px 2px 4px;
+    border-style: solid;
+    border-radius: 16px;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #0d1321;
+    box-shadow: 0 5px 20px 0 #101111;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fffafb;
+    text-align: center;
+}
+
+footer a {
+    border-bottom: 1px dashed #fffafb;
+    letter-spacing: 0.5px;
+    padding: 0 2px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #c51c53;
+}
+
+footer a:hover {
+    color: #d45981;
+    border-bottom: 1px solid #fffafb;
+}
