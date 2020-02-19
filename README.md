@@ -148,6 +148,11 @@ https://hannahshiels.github.io/daily-project/project-036/index.html
 
 https://hannahshiels.github.io/daily-project/project-037/index.html
 
+38. A word scrambler
+
+https://hannahshiels.github.io/daily-project/project-038/index.html
+
+
 
 
 
