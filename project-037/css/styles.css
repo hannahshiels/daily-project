@@ -189,6 +189,7 @@ strong {
 
 .left-side {
     flex-basis: 40%;
+    border-right: 1px solid #272727;
 }
 
 .right-side {
