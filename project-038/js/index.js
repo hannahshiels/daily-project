@@ -7,7 +7,7 @@ btn.addEventListener('click', scrambleWord);
 
 function scrambleWord() {
     h2.classList.remove('visible');
-    const input = document.querySelector('#userInput').value;
+    const input = document.querySelector('#userInput').value.toLowerCase();
     let arrCheck = input.split(' ');
     let result = checkArr(arrCheck);
     let wordArr = result[0].split('');
@@ -32,7 +32,6 @@ function randomizeLetters(arr) {
             newArr.push(element);
         }
     });
-    console.log(newArr.join(''));
     return newStr = newArr.join('');
 }
 
