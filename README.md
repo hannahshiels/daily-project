@@ -152,6 +152,12 @@ https://hannahshiels.github.io/daily-project/project-037/index.html
 
 https://hannahshiels.github.io/daily-project/project-038/index.html
 
+39. A CV
+
+https://hannahshiels.github.io/daily-project/project-039/index.html
+
+
+
 
 
 
