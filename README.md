@@ -156,6 +156,11 @@ https://hannahshiels.github.io/daily-project/project-038/index.html
 
 https://hannahshiels.github.io/daily-project/project-039/index.html
 
+40. A recipe site
+
+https://hannahshiels.github.io/daily-project/project-040/index.html
+
+
 
 
 
