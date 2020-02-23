@@ -7,9 +7,6 @@ function rollDice() {
     let randomNum = Math.floor(Math.random() * 6 + 1);
     icon.className = '';
     icon.classList.add('fas');
-    console.log(icon.classList);
-    console.log(randomNum);
-
     switch (randomNum) {
         case 1:
             icon.classList.add(classInitial + 'one');
