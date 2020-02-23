@@ -164,6 +164,12 @@ https://hannahshiels.github.io/daily-project/project-040/index.html
 
 https://hannahshiels.github.io/daily-project/project-041/index.html
 
+42. A dice roller
+
+https://hannahshiels.github.io/daily-project/project-042/index.html
+
+
+
 
 
 
