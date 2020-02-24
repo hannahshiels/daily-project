@@ -82,17 +82,17 @@ a {
 }
 
 .img-one {
-    background: url('/images/image-1.jpg');
+    background: url(https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
     mix-blend-mode: hard-light;
 }
 
 .img-two {
-    background: url('/images/image-2.jpg');
-    mix-blend-mode: color-dodge;
+    background: url(https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    mix-blend-mode: multiply;
 }
 
 .img-three {
-    background: url('/images/image-3.jpg');
+    background: url(https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
     mix-blend-mode: darken;
 }
 
