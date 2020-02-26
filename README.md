@@ -176,6 +176,12 @@ https://hannahshiels.github.io/daily-project/project-043/index.html
 
 https://hannahshiels.github.io/daily-project/project-044/index.html
 
+45. A e-commerce site
+
+https://hannahshiels.github.io/daily-project/project-045/index.html
+
+
+
 
 
 
