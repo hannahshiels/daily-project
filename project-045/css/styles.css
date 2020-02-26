@@ -158,6 +158,8 @@
     
     .sidebar {
         grid-area: sidebar;
+        position: sticky;
+        top: 0;
     }
     
     main {
@@ -282,6 +284,9 @@
             grid-template-columns: auto;
             grid-template-areas: "header " "sidebar" "main";
             grid-auto-rows: auto;
+        }
+        .sidebar {
+            position: static;
         }
         .sidebar.mr-1 {
             margin-right: 0;
