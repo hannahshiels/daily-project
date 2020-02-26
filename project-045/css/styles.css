@@ -255,7 +255,7 @@
         .img-collage {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: 200px;
+            grid-template-rows: 250px 200px;
             grid-auto-rows: 200px;
             grid-auto-flow: row dense;
         }
