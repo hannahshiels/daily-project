@@ -1,0 +1,174 @@
+/* general styling */
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+button,
+input {
+    border-radius: 12px;
+    border: 2px solid #1c1d21;
+    height: 2.5rem;
+    width: 12rem;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    font-family: 'Spartan', sans-serif;
+}
+
+input[type='text'] {
+    border: 1px solid #1c1d21;
+}
+
+input[type='text']:focus {
+    border: 2px solid #1c1d21;
+}
+
+input[type='submit']:hover,
+button:hover {
+    transform: translateY(-1px);
+}
+
+
+/* utility */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+#sepia {
+    filter: sepia(100%);
+}
+
+#monotone {
+    filter: grayscale(100%);
+}
+
+#invert {
+    filter: invert(100%);
+}
+
+.active {
+    display: none;
+}
+
+.btn {
+    background-color: #71e871;
+    border: 2px solid #67d367;
+    color: #fff;
+    font-weight: 700;
+}
+
+.removeFilter {
+    background-color: #eb5e55;
+    border: 2px solid #c14d46;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.randomImgBtn {
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    border: 2px solid #1c1d21;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 1px 1px #1c1d21;
+    text-transform: uppercase;
+    height: 3.5rem;
+    width: 16rem;
+}
+
+
+/* structure */
+
+.container {
+    margin-bottom: 4rem;
+}
+
+.image-container {
+    min-height: 300px;
+    background-color: #1c1d21;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.img-outer {
+    background-color: #fff;
+    padding: 1rem;
+}
+
+img {
+    width: 400px;
+    min-height: 300px;
+    text-align: center;
+}
+
+.container p {
+    color: #c14d46;
+    text-align: center;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #0d1321;
+    box-shadow: 0 5px 20px 0 #101111;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fffafb;
+    text-align: center;
+}
+
+footer a {
+    border-bottom: 1px dashed #fffafb;
+    letter-spacing: 0.5px;
+    padding: 0 2px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #c51c53;
+}
+
+footer a:hover {
+    color: #d45981;
+    border-bottom: 1px solid #fffafb;
+}

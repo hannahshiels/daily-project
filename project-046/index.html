@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Day 046</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Spartan:400,700,800&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="flex-row center">
+
+    <div class="container flex-col center">
+        <div class="image-container">
+            <div class="img-outer"> <img class="img" id="" src="" alt=""> </div>
+        </div>
+        <div class="form-container flex-col center">
+            <form class="mt-2">
+                <input type="text" class="input" placeholder="Enter an image url...">
+                <input type="submit" class="btn" value="Go!">
+                <p class="labelNoInput mt-1"></p>
+                <p class="labelFormat mt-1"></p>
+            </form>
+
+            <div class="img-filters mt-2 active ">
+                <button class="filterButton" id="sepia"> Sepia</button>
+                <button class="filterButton" id="monotone"> Monotone</button>
+                <button class="filterButton" id="invert"> Invert</button>
+                <button class="removeFilter"> Remove Filter </button>
+            </div>
+
+            <div class="random-img-container  mt-2 ">
+                <button class="randomImgBtn"> Show me a random image</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p> Coded with ❤️ by <a href="https://codepen.io/devhannah/#"> Hannah  </a> </p>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
