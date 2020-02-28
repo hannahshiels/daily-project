@@ -1,0 +1,189 @@
+/* general styling */
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    color: #1d1a31;
+    font-family: 'Muli', sans-serif;
+    min-height: 100vh;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li {
+    margin: 1rem;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.link {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+i {
+    font-style: italic;
+}
+
+.size-lg {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.size-md {
+    font-size: 1rem;
+}
+
+.size-sm {
+    font-size: 0.85rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+
+/* utility */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.padding-md {
+    padding: 2rem;
+}
+
+.padding-md-el {
+    padding: 2rem 0;
+}
+
+.bg-pink {
+    background-color: #f08cae;
+    color: #fff;
+}
+
+.bg-pink-dark {
+    background-color: #ef7ca2;
+    color: #fff;
+}
+
+.bg-brown {
+    background-color: #c57b57;
+    color: #fff;
+}
+
+.bg-brown-dark {
+    background-color: #a26548;
+    color: #fff;
+}
+
+.bg-yellow {
+    background-color: #f4e06b;
+    color: #fff;
+}
+
+.bg-yellow-dark {
+    background-color: #f4d62c;
+    color: #fff;
+}
+
+
+/* structure */
+
+.container {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.item {
+    border: 1px solid #312e43;
+    box-shadow: 0 0 5px #d9d9dc;
+    flex-basis: 30%;
+    max-width: 300px;
+    border-radius: 16px;
+    margin: 2rem;
+    text-align: center;
+}
+
+.border-top-radius {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.border-bottom-radius {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.item>div {
+    padding: 1rem 0;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #0d1321;
+    box-shadow: 0 5px 20px 0 #101111;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fffafb;
+    text-align: center;
+}
+
+footer a {
+    border-bottom: 1px dashed #fffafb;
+    letter-spacing: 0.5px;
+    padding: 0 2px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #c51c53;
+}
+
+footer a:hover {
+    color: #d45981;
+    border-bottom: 1px solid #fffafb;
+}
+
+@media screen and (max-width:600px) {
+    .container.flex-row {
+        flex-direction: column;
+    }
+    .item {
+        flex-basis: 100%;
+        min-width: 300px;
+    }
+}
