@@ -180,9 +180,13 @@ https://hannahshiels.github.io/daily-project/project-044/index.html
 
 https://hannahshiels.github.io/daily-project/project-045/index.html
 
-45. A image viewer + filter
+46. A image viewer + filter
 
 https://hannahshiels.github.io/daily-project/project-046/index.html
+
+47. Pricing components
+
+https://hannahshiels.github.io/daily-project/project-047/index.html
 
 
 
