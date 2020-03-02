@@ -106,19 +106,18 @@ h2 {
 /* structure */
 
 .container {
-    border: 1px solid #4f3232;
     line-height: 1.5;
     margin-bottom: 4rem;
 }
 
 .header {
-    border-bottom: 1px solid #4f3232;
+    border: 1px solid #4f3232;
     background-color: rgba(244, 244, 249, 0.8);
 }
 
 main {
     background-color: rgba(244, 244, 249, 0.8);
-    border-top: 1px solid #4f3232;
+    border: 1px solid #4f3232;
     margin-top: 1rem;
 }
 
