@@ -196,6 +196,14 @@ https://hannahshiels.github.io/daily-project/project-048/index.html
 
 https://hannahshiels.github.io/daily-project/project-049/index.html
 
+50. Blog post
+
+https://hannahshiels.github.io/daily-project/project-050/index.html
+
+
+
+
+
 
 
 
