@@ -1,0 +1,157 @@
+/* general styling */
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+    color: #3a405a;
+    min-height: 100vh;
+}
+
+.bg-main {
+    background-attachment: fixed;
+    background-image: url('https://images.unsplash.com/photo-1519882189396-71f93cb4714b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-position: center;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar a {
+    color: #3a405a;
+    margin-right: 1rem;
+    letter-spacing: 2px;
+    padding: 0.5rem 0;
+    text-transform: lowercase;
+}
+
+.navbar a:hover {
+    border-bottom: 1px solid #b8dbd9;
+}
+
+.navbar a:last-child {
+    margin-right: 0rem;
+}
+
+.logo {
+    color: #f9aecb;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5rem 0;
+    text-shadow: 1px 1px #3a405a;
+    letter-spacing: 0.5px;
+    text-transform: lowercase;
+}
+
+
+/* utility */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.padding-md {
+    padding: 1rem 2rem;
+}
+
+.title {
+    padding: 1rem 0;
+    width: 100%;
+    border-bottom: 1px solid #4f3232;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+.post p {
+    margin-bottom: 1rem;
+}
+
+
+/* structure */
+
+.container {
+    border: 1px solid #4f3232;
+    line-height: 1.5;
+    margin-bottom: 4rem;
+}
+
+.header {
+    border-bottom: 1px solid #4f3232;
+    background-color: rgba(244, 244, 249, 0.8);
+}
+
+main {
+    background-color: rgba(244, 244, 249, 0.8);
+    border-top: 1px solid #4f3232;
+    margin-top: 1rem;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #0d1321;
+    box-shadow: 0 5px 20px 0 #101111;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fffafb;
+    text-align: center;
+}
+
+footer a {
+    border-bottom: 1px dashed #fffafb;
+    letter-spacing: 0.5px;
+    padding: 0 2px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #c51c53;
+}
+
+footer a:hover {
+    color: #d45981;
+    border-bottom: 1px solid #fffafb;
+}
