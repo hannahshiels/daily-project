@@ -200,6 +200,12 @@ https://hannahshiels.github.io/daily-project/project-049/index.html
 
 https://hannahshiels.github.io/daily-project/project-050/index.html
 
+51. User calc
+
+https://hannahshiels.github.io/daily-project/project-051/index.html
+
+
+
 
 
 
