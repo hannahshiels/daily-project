@@ -1,0 +1,163 @@
+/* general styling */
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bee9e8;
+    color: #273043;
+    font-family: 'Josefin Sans', sans-serif;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.input-group>* {
+    margin-right: 0.5rem;
+}
+
+.input-group>*:last-child {
+    margin-right: 0rem;
+}
+
+input,
+button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 4rem;
+    height: 3rem;
+}
+
+input {
+    border: 1px solid #c4c6cb;
+    color: #273043;
+    padding-left: 1rem;
+}
+
+input:focus {
+    border-color: #273043;
+}
+
+.btn {
+    border: 1px solid #273043;
+    background-color: #f61067;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    transition: ease-in-out 0.5s;
+}
+
+.btn:hover {
+    background-color: #f85190;
+    cursor: pointer;
+}
+
+.operator {
+    font-size: 2rem;
+}
+
+.error-container p {
+    margin: 1rem;
+}
+
+
+/* utility */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.mb-1 {
+    margin-bottom: 2rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.error {
+    color: #f61067;
+}
+
+.success {
+    color: #22e556;
+}
+
+
+/* structure */
+
+.container {
+    width: 100%;
+}
+
+.item {
+    background-color: #fff;
+    border: 2px solid #f61067;
+    box-shadow: 0 0 5px #273043;
+    padding: 1rem 2rem;
+    width: 400px;
+    height: 350px;
+}
+
+.error-container {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #0d1321;
+    box-shadow: 0 5px 20px 0 #101111;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fffafb;
+    text-align: center;
+}
+
+footer a {
+    border-bottom: 1px dashed #fffafb;
+    letter-spacing: 0.5px;
+    padding: 0 2px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #c51c53;
+}
+
+footer a:hover {
+    color: #d45981;
+    border-bottom: 1px solid #fffafb;
+}

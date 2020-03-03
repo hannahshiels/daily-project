@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Day 051</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="flex-row center">
+
+    <div class="container flex-col center">
+        <div class="item flex-col center">
+            <form class="flex-col ">
+                <div class="input-group flex-row mb-2 center">
+                    <input type="number" id="firstNumber">
+                    <span class="operator">+</span>
+                    <input type="number" id="secondNumber">
+                    <span class="operator"> = </span>
+                    <input type="number" id="result"></input>
+                </div>
+                <button type="submit" class="btn" id="btn"> Calculate </button>
+            </form>
+
+            <div class="error-container">
+                <p class="success" id="correct"></p>
+                <p class="error" id="sumError"></p>
+                <p class="error" id="noInputError"></p>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p> Coded with ❤️ by <a href="https://codepen.io/devhannah/#"> Hannah  </a> </p>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
