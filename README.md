@@ -204,6 +204,13 @@ https://hannahshiels.github.io/daily-project/project-050/index.html
 
 https://hannahshiels.github.io/daily-project/project-051/index.html
 
+52. Border radius changer
+
+https://hannahshiels.github.io/daily-project/project-052/index.html
+
+
+
+
 
 
 
