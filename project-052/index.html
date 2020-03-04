@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Day 052 </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="flex-row center">
+    <div class="container flex-col center">
+        <div class="item flex-col center padding-md">
+            <div class="box "></div>
+            <div class="user-input-container mt-2">
+                <form>
+                    <div class="input-group flex-col">
+                        <div class="input flex-row center"> <label for="height"> Height:</label> <input type="number" name="height" id="height"></div>
+                        <div class="input flex-row center"> <label for="width"> Width:</label> <input type="number" name="width" id="width"></div>
+                    </div>
+                    <div class="input-group flex-col">
+                        <div class="input flex-row center"> <label for="border-top-left"> Border top left radius:</label> <input type="number" name="border-top-left" id="borderTopLeftRadius"></div>
+                        <div class="input flex-row center"> <label for="border-top-right"> Border top right radius:</label> <input type="number" name="border-top-right" id="borderTopRightRadius"> </div>
+                        <div class="input flex-row center"> <label for="border-bottom-left"> Border bottom left radius:</label> <input type="number" name="border-bottom-left" id="borderBottomLeftRadius"></div>
+                        <div class="input flex-row center"> <label for="border-bottom-right"> Border bottom right radius:</label> <input type="number" name="border-bottom-right" id="borderBottomRightRadius">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="code-container padding-md ">
+            <pre> <code>element {
+border-top-left-radius: <span id="top-left"></span>;
+border-top-right-radius: <span id="top-right"></span>;
+border-bottom-left-radius: <span id="bottom-left"></span>;
+border-bottom-right-radius: <span id="bottom-right"></span>;
+}
+            </code></pre>
+        </div>
+    </div>
+
+    <footer>
+        <p> Coded with ❤️ by <a href="https://codepen.io/devhannah/#"> Hannah  </a> </p>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
