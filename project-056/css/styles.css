@@ -1,0 +1,174 @@
+/* general styling */
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fefffc;
+    color: #090e0f;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+}
+
+a {
+    color: #090e0f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul li {
+    padding: 1rem 2rem;
+    margin-bottom: 0.5rem;
+}
+
+ul li:last-child {
+    margin-bottom: 0rem;
+}
+
+main {
+    line-height: 1.5;
+}
+
+
+/* headings */
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+h3 {
+    color: #1c7fea;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+h4 {
+    color: #24bce2;
+    font-weight: 500;
+}
+
+
+/* utility */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.ul-layered li {
+    margin-left: 1rem;
+}
+
+.ul-layered .sub-topic {
+    margin: 0;
+}
+
+.padding-title {
+    padding: 1.5rem 2rem;
+}
+
+.border {
+    border-bottom: 1px solid #d2d3d3;
+}
+
+
+/* structure */
+
+.top-nav {
+    background-color: #fefffc;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 85px;
+    box-shadow: 0 0.05rem 0.1rem #d2d3d3;
+    z-index: 5;
+}
+
+.sidebar {
+    background-color: #fefffc;
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    width: 185px;
+    overflow-y: scroll;
+}
+
+main {
+    margin-left: 185px;
+    margin-bottom: 4rem;
+}
+
+.top-nav,
+main {
+    padding: 2rem;
+}
+
+.section-heading {
+    margin-bottom: 1rem;
+}
+
+.section-sub-heading {
+    margin: 1rem 0;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section p {
+    margin-bottom: 0.5rem;
+}
+
+section p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #0d1321;
+    box-shadow: 0 5px 20px 0 #101111;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fffafb;
+    text-align: center;
+}
+
+footer a {
+    border-bottom: 1px dashed #fffafb;
+    letter-spacing: 0.5px;
+    padding: 0 2px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #c51c53;
+}
+
+footer a:hover {
+    color: #d45981;
+    border-bottom: 1px solid #fffafb;
+}
