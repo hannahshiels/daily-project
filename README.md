@@ -216,9 +216,15 @@ https://hannahshiels.github.io/daily-project/project-053/index.html
 
 https://hannahshiels.github.io/daily-project/project-054/index.html
 
-54. Random greeting
+55. Random greeting
 
 https://hannahshiels.github.io/daily-project/project-055/index.html
+
+56. Technical documentation page
+
+https://hannahshiels.github.io/daily-project/project-056/index.html
+
+
 
 
 
