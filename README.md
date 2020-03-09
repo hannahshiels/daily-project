@@ -224,6 +224,12 @@ https://hannahshiels.github.io/daily-project/project-055/index.html
 
 https://hannahshiels.github.io/daily-project/project-056/index.html
 
+57. Footer
+
+https://hannahshiels.github.io/daily-project/project-057/index.html
+
+
+
 
 
 
