@@ -1,0 +1,157 @@
+/* general styling */
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efa0e7;
+    font-family: 'Source Sans Pro', sans-serif;
+    min-height: 100vh;
+}
+
+ul li h4 {
+    color: #efa0e7;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+ul li {
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+}
+
+ul li:last-child {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    font-size: 18px;
+}
+
+
+/* utility */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.space-between-start {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.bg-dark {
+    background-color: #2a324b;
+    color: #eff1f3;
+}
+
+.bg-dark a {
+    color: #eff1f3;
+}
+
+a:hover {
+    border-bottom: 2px solid #efa0e7;
+}
+
+.social-link a:hover {
+    border-bottom: none;
+    color: #efa0e7;
+}
+
+.bg-light {
+    background-color: #eff1f3;
+    color: #2a324b;
+}
+
+.bg-light {
+    background-color: #eff1f3;
+    color: #2a324b;
+}
+
+.bg-light a {
+    color: #2a324b;
+}
+
+
+/* structure */
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.info-wrapper {
+    padding: 2rem 2rem;
+}
+
+.footer-info {
+    width: 100%;
+}
+
+.info-container {
+    flex-basis: 33.33%;
+}
+
+.social-links-container {
+    padding: 1rem 2rem 2rem;
+}
+
+.social-links {
+    margin-bottom: 1rem;
+}
+
+.social-link {
+    margin: 0 1rem;
+}
+
+.copyright-container {
+    text-align: center;
+}
+
+@media screen and (max-width: 565px) {
+    .footer-info.flex-row {
+        flex-direction: column;
+    }
+    .footer-info.space-between-start {
+        align-items: center;
+        justify-content: center;
+    }
+    .info-container {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .info-container:last-child {
+        margin-bottom: 0;
+    }
+}
