@@ -228,6 +228,11 @@ https://hannahshiels.github.io/daily-project/project-056/index.html
 
 https://hannahshiels.github.io/daily-project/project-057/index.html
 
+58. Word guesser
+
+https://hannahshiels.github.io/daily-project/project-058/index.html
+
+
 
 
 
