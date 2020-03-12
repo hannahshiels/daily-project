@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Day 060</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body class="flex-row center">
+
+    <div class="container flex-col center">
+        <div class="input-items-container side flex-col">
+            <div class="font-changes-container flex-row">
+                <button id="fontWeight" class="btn">bold</button>
+                <button id="fontStyle" class="btn">italic</button>
+                <button id="increase" class="btn">+</button>
+                <button id="decrease" class="btn">-</button>
+            </div>
+            <div class="font-input-container">
+                <input type="text" placeholder="Enter text here..." id="input">
+            </div>
+            <div class="font-type-container flex-col">
+                <select id="font-family">
+                    <option id="monospace">monospace</option>
+                    <option id="cursive">cursive</option>
+                    <option id="sans-serif">sans-serif</option>
+                    <option id="serif">serif</option>
+
+                </select>
+            </div>
+        </div>
+        <div class="output-container side flex-row center">
+            <div class="item">
+                <p id="output"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p> Coded with ❤️ by <a href="https://codepen.io/devhannah/#"> Hannah  </a> </p>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
