@@ -236,6 +236,12 @@ https://hannahshiels.github.io/daily-project/project-058/index.html
 
 https://hannahshiels.github.io/daily-project/project-059/index.html
 
+60. Font editor
+
+https://hannahshiels.github.io/daily-project/project-060/index.html
+
+
+
 
 
 
