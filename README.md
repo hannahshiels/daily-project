@@ -240,6 +240,12 @@ https://hannahshiels.github.io/daily-project/project-059/index.html
 
 https://hannahshiels.github.io/daily-project/project-060/index.html
 
+61. Background blend mode
+
+https://hannahshiels.github.io/daily-project/project-061/index.html
+
+
+
 
 
 
