@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d92027;
+    height: 100vh;
+    font-family: 'Grandstander', cursive;
+}
+
+.animate {
+    animation: bgChange 7s infinite;
+    transition: ease-in-out;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 2px #393e46;
+    color: #f9f9f9;
+}
+
+@keyframes bgChange {
+    25% {
+        background-color: #ff9234;
+    }
+    50% {
+        background-color: #ffcd3c;
+    }
+    75% {
+        background-color: #35d0ba;
+    }
+    100% {
+        background-color: #d92027;
+    }
+}
