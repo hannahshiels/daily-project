@@ -121,6 +121,7 @@
 - [Font editor](https://hannahshiels.github.io/daily-project/project-060/index.html)
 
 - [Background blend mode](https://hannahshiels.github.io/daily-project/project-061/index.html)
+-[Background change](https://hannahshiels.github.io/daily-project/project-062/index.html)
 
 
 
