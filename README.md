@@ -1,248 +1,126 @@
-# daily projects
+### daily projects
 
-1. Theme changer testimonial
+- [Theme changer testimonial](https://hannahshiels.github.io/daily-project/project-001/index.html)
 
-https://hannahshiels.github.io/daily-project/project-001/index.html
+- [Background changer](https://hannahshiels.github.io/daily-project/project-002/index.html)
 
-2. Background changer 
+- [Image gallery](https://hannahshiels.github.io/daily-project/project-003/index.html)
 
-https://hannahshiels.github.io/daily-project/project-002/index.html
+- [Blog post](https://hannahshiels.github.io/daily-project/project-004/index.html)
 
-3. Image gallery
+- [Name profile button](https://hannahshiels.github.io/daily-project/project-005/index.html)
 
-https://hannahshiels.github.io/daily-project/project-003/index.html
+- [Word counter](https://hannahshiels.github.io/daily-project/project-006/index.html)
 
-4. Blog post
+- [Landing page](https://hannahshiels.github.io/daily-project/project-007/index.html)
 
-https://hannahshiels.github.io/daily-project/project-004/index.html
+- [Nav bar dropdown](https://hannahshiels.github.io/daily-project/project-008/index.html)
 
-5. Name profile button
+- [Note adder](https://hannahshiels.github.io/daily-project/project-009/index.html)
 
-https://hannahshiels.github.io/daily-project/project-005/index.html
+- [Menu popout](https://hannahshiels.github.io/daily-project/project-010/index.html)
 
-6. Word counter 
+- [Weight converter](https://hannahshiels.github.io/daily-project/project-011/index.html)
 
-https://hannahshiels.github.io/daily-project/project-006/index.html
+- [Front end mentor pricing components](https://hannahshiels.github.io/daily-project/project-012/index.html)
 
-7. Landing page
+- [Rock, paper, scissors game](https://hannahshiels.github.io/daily-project/project-013/index.html)
 
-https://hannahshiels.github.io/daily-project/project-007/index.html
+- [Tribute page](https://hannahshiels.github.io/daily-project/project-014/index.html)
 
-8. Nav bar dropdown 
+- [Invoice design](https://hannahshiels.github.io/daily-project/project-015/index.html)
 
-https://hannahshiels.github.io/daily-project/project-008/index.html
+- [Course resource design](https://hannahshiels.github.io/daily-project/project-016/index.html)
 
-9. Note adder 
+- [Menu design](https://hannahshiels.github.io/daily-project/project-017/index.html)
 
-https://hannahshiels.github.io/daily-project/project-009/index.html
+- [News article](https://hannahshiels.github.io/daily-project/project-018/index.html)
 
-10. Menu popout 
+- [Image changer](https://hannahshiels.github.io/daily-project/project-019/index.html)
 
-https://hannahshiels.github.io/daily-project/project-010/index.html
+- [Front end mentor sign up form](https://hannahshiels.github.io/daily-project/project-020/index.html)
 
-11. Weight converter
+- [Form design](https://hannahshiels.github.io/daily-project/project-021/index.html)
 
-https://hannahshiels.github.io/daily-project/project-011/index.html
+- [404 error page](https://hannahshiels.github.io/daily-project/project-022/index.html)
 
-12. Front end mentor pricing components 
+- [Newsletter design](https://hannahshiels.github.io/daily-project/project-023/index.html)
 
-https://hannahshiels.github.io/daily-project/project-012/index.html
+- [Q & A design](https://hannahshiels.github.io/daily-project/project-024/index.html)
 
-13. Rock, paper, scissors game 
+- [Phone design](https://hannahshiels.github.io/daily-project/project-025/index.html)
 
-https://hannahshiels.github.io/daily-project/project-013/index.html
+- [BMI calculator](https://hannahshiels.github.io/daily-project/project-026/index.html)
 
-14. Tribute page
+- [Balloon popping game](https://hannahshiels.github.io/daily-project/project-027/index.html)
 
-https://hannahshiels.github.io/daily-project/project-014/index.html
+- [Portfolio site](https://hannahshiels.github.io/daily-project/project-028/index.html)
 
-15. Invoice design 
+- [Windows XP desktop remaster](https://hannahshiels.github.io/daily-project/project-029/index.html)
 
-https://hannahshiels.github.io/daily-project/project-015/index.html
+- [Cards design](https://hannahshiels.github.io/daily-project/project-030/index.html)
 
-16. Course resource design 
+- [Simple photograph](https://hannahshiels.github.io/daily-project/project-031/index.html)
 
-https://hannahshiels.github.io/daily-project/project-016/index.html
+- [Color filter](https://hannahshiels.github.io/daily-project/project-032/index.html)
 
-17. Menu design
+- [Valentines card](https://hannahshiels.github.io/daily-project/project-033/index.html)
 
-https://hannahshiels.github.io/daily-project/project-017/index.html
+- [Full page menu](https://hannahshiels.github.io/daily-project/project-034/index.html)
 
-18. News article 
+- [News site](https://hannahshiels.github.io/daily-project/project-035/index.html)
 
-https://hannahshiels.github.io/daily-project/project-018/index.html
+- [Disappearing note](https://hannahshiels.github.io/daily-project/project-036/index.html)
 
-19. Image changer 
+- [Job board](https://hannahshiels.github.io/daily-project/project-037/index.html)
 
-https://hannahshiels.github.io/daily-project/project-019/index.html
+- [Word scrambler](https://hannahshiels.github.io/daily-project/project-038/index.html)
 
-20. Front end mentor sign up form 
+- [CV](https://hannahshiels.github.io/daily-project/project-039/index.html)
 
-https://hannahshiels.github.io/daily-project/project-020/index.html
+- [Recipe site](https://hannahshiels.github.io/daily-project/project-040/index.html)
 
-21. Form design 
+- [Card flip](https://hannahshiels.github.io/daily-project/project-041/index.html)
 
-https://hannahshiels.github.io/daily-project/project-021/index.html
+- [Dice roller](https://hannahshiels.github.io/daily-project/project-042/index.html)
 
-22. 404 error page 
+- [Creative collage](https://hannahshiels.github.io/daily-project/project-043/index.html)
 
-https://hannahshiels.github.io/daily-project/project-022/index.html
+- [Sliding menu](https://hannahshiels.github.io/daily-project/project-044/index.html)
 
-23. Newsletter design 
+- [E-commerce site](https://hannahshiels.github.io/daily-project/project-045/index.html)
 
-https://hannahshiels.github.io/daily-project/project-023/index.html
+- [Image viewer + filter](https://hannahshiels.github.io/daily-project/project-046/index.html)
 
-24. Q & A design 
+- [Pricing components](https://hannahshiels.github.io/daily-project/project-047/index.html)
 
-https://hannahshiels.github.io/daily-project/project-024/index.html
+- [Bug mover](https://hannahshiels.github.io/daily-project/project-048/index.html)
 
-25. Phone design 
+- [Text pop up](https://hannahshiels.github.io/daily-project/project-049/index.html)
 
-https://hannahshiels.github.io/daily-project/project-025/index.html
+- [Blog post](https://hannahshiels.github.io/daily-project/project-050/index.html)
 
-26. BMI calculator
+- [User calc](https://hannahshiels.github.io/daily-project/project-051/index.html)
 
-https://hannahshiels.github.io/daily-project/project-026/index.html
+- [Border radius changer](https://hannahshiels.github.io/daily-project/project-052/index.html)
 
-27. Balloon popping game
+- [Landing page](https://hannahshiels.github.io/daily-project/project-053/index.html)
 
-https://hannahshiels.github.io/daily-project/project-027/index.html
+- [Random number guesser](https://hannahshiels.github.io/daily-project/project-054/index.html)
 
-28. Portfolio site
+- [Random greeting](https://hannahshiels.github.io/daily-project/project-055/index.html)
 
-https://hannahshiels.github.io/daily-project/project-028/index.html
+- [Technical documentation page](https://hannahshiels.github.io/daily-project/project-056/index.html)
 
-29. Windows XP desktop remaster
+- [Footer](https://hannahshiels.github.io/daily-project/project-057/index.html)
 
-https://hannahshiels.github.io/daily-project/project-029/index.html
+- [Word guesser](https://hannahshiels.github.io/daily-project/project-058/index.html)
 
-30. Cards design
+- [Minecraft menu](https://hannahshiels.github.io/daily-project/project-059/index.html)
 
-https://hannahshiels.github.io/daily-project/project-030/index.html
+- [Font editor](https://hannahshiels.github.io/daily-project/project-060/index.html)
 
-31. A simple photograph
-
-https://hannahshiels.github.io/daily-project/project-031/index.html
-
-32. A color filter
-
-https://hannahshiels.github.io/daily-project/project-032/index.html
-
-33. A valentines card
-
-https://hannahshiels.github.io/daily-project/project-033/index.html
-
-34. A full page menu
-
-https://hannahshiels.github.io/daily-project/project-034/index.html
-
-35. A news site
-
-https://hannahshiels.github.io/daily-project/project-035/index.html
-
-36. A disappearing note
-
-https://hannahshiels.github.io/daily-project/project-036/index.html
-
-37. A job board
-
-https://hannahshiels.github.io/daily-project/project-037/index.html
-
-38. A word scrambler
-
-https://hannahshiels.github.io/daily-project/project-038/index.html
-
-39. A CV
-
-https://hannahshiels.github.io/daily-project/project-039/index.html
-
-40. A recipe site
-
-https://hannahshiels.github.io/daily-project/project-040/index.html
-
-41. A card flip
-
-https://hannahshiels.github.io/daily-project/project-041/index.html
-
-42. A dice roller
-
-https://hannahshiels.github.io/daily-project/project-042/index.html
-
-43. A creative collage
-
-https://hannahshiels.github.io/daily-project/project-043/index.html
-
-44. A sliding menu
-
-https://hannahshiels.github.io/daily-project/project-044/index.html
-
-45. A e-commerce site
-
-https://hannahshiels.github.io/daily-project/project-045/index.html
-
-46. A image viewer + filter
-
-https://hannahshiels.github.io/daily-project/project-046/index.html
-
-47. Pricing components
-
-https://hannahshiels.github.io/daily-project/project-047/index.html
-
-48. Bug mover
-
-https://hannahshiels.github.io/daily-project/project-048/index.html
-
-49. Text pop up
-
-https://hannahshiels.github.io/daily-project/project-049/index.html
-
-50. Blog post
-
-https://hannahshiels.github.io/daily-project/project-050/index.html
-
-51. User calc
-
-https://hannahshiels.github.io/daily-project/project-051/index.html
-
-52. Border radius changer
-
-https://hannahshiels.github.io/daily-project/project-052/index.html
-
-53. Landing page
-
-https://hannahshiels.github.io/daily-project/project-053/index.html
-
-54. Random number guesser
-
-https://hannahshiels.github.io/daily-project/project-054/index.html
-
-55. Random greeting
-
-https://hannahshiels.github.io/daily-project/project-055/index.html
-
-56. Technical documentation page
-
-https://hannahshiels.github.io/daily-project/project-056/index.html
-
-57. Footer
-
-https://hannahshiels.github.io/daily-project/project-057/index.html
-
-58. Word guesser
-
-https://hannahshiels.github.io/daily-project/project-058/index.html
-
-59. Minecraft menu
-
-https://hannahshiels.github.io/daily-project/project-059/index.html
-
-60. Font editor
-
-https://hannahshiels.github.io/daily-project/project-060/index.html
-
-61. Background blend mode
-
-https://hannahshiels.github.io/daily-project/project-061/index.html
+- [Background blend mode](https://hannahshiels.github.io/daily-project/project-061/index.html)
 
 
 
